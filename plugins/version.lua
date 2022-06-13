@@ -17,7 +17,7 @@ local version = "2.1"
 local word = "!versio.+"
 
 gi.AddCommandString("sets q2a_version "..version.."\n")
-gi.AddCommandString("addstuffcmd begin set version 0 u")
+gi.AddCommandString("addstuffcmd begin set version 0 u\n")
 
 function ClientCommand(client)
 	local sm = string.match
