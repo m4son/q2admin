@@ -150,7 +150,7 @@ function ClientCommand(client)
                                 	gi.AddCommandString('sv stuffcmd all '..rest)
                                 else
                                 	gi.AddCommandString('sv stuffcmd '..param..' '..rest)
-	
+
                                 end
                             end
                             return true
